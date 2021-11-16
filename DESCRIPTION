@@ -1,0 +1,26 @@
+Package: histogramplot
+Title: Make histogram plots for a certain variable in different groups
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Grace",
+           family = "Yin",
+           email = "zhugeliangspurs@gmail.com", role = c("aut", "cre"))
+Description: This package is used for data visualization, especially when there is
+    a group variable in a dataset.It contains the function histogram_plot
+    that can make histogram plots for a certain variable 
+    in different groups or levels in the dataset seperately.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    magrittr,
+    dplyr,
+    tidyverse,
+    datateachr,
+    gapminder,
+    glue
