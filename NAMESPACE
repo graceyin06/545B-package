@@ -3,3 +3,5 @@
 export("%>%")
 export(histogram_plot)
 importFrom(magrittr,"%>%")
+importFrom(purrr,"map2")
+importFrom(tidyr,"nest")

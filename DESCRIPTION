@@ -23,4 +23,8 @@ Imports:
     tidyverse,
     datateachr,
     gapminder,
-    glue
+    glue,
+    purrr,
+    tidyr
+    
+    

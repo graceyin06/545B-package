@@ -23,9 +23,9 @@
 #'
 histogram_plot<-function(data, group,variable, x_label){
   data_plot<-data %>%
-    group_by({{group}}) %>%
-    nest() %>%
-    mutate(plot = map2(data,{{group}}, ~ ggplot(data = .x, aes(x = {{variable}})) +geom_histogram(alpha=0.5,bins=30)+
+    dplyr:: group_by({{group}}) %>%
+    tidyr:: nest() %>%
+    dplyr:: mutate(plot = purrr:: map2(data,{{group}}, ~ ggplot(data = .x, aes(x = {{variable}})) +geom_histogram(alpha=0.5,bins=30)+
                          labs(x = x_label,
                               y = 'count') +
                          ggtitle(glue::glue("Histogram plots for ", {x_label}, " in Group ", {.y}))))
