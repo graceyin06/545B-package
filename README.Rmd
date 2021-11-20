@@ -38,7 +38,7 @@ And the development version from [GitHub](https://github.com/) with:
 devtools::install_github("graceyin06/545B-package")
 ```
 
-### Required packages for apply the function histogram_plot in histogramplot package 
+### Required packages for applying the function "histogram_plot" in histogramplot package 
 * magrittr
 * dplyr
 * tidyverse

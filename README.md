@@ -4,11 +4,10 @@
 # histogramplot
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 This package is used for data visualization, especially when there is a
-group variable in a dataset. It contains the function histogram\_plot
+group variable in a dataset. It contains the function histogram_plot
 that can make histogram plots for a certain variable in different groups
 or levels in the dataset seperately.
 
@@ -28,11 +27,11 @@ And the development version from [GitHub](https://github.com/) with:
 devtools::install_github("graceyin06/545B-package")
 ```
 
-### Required packages for apply the function histogram\_plot in histogramplot package
+### Required packages for applying the function “histogram_plot” in histogramplot package
 
-  - magrittr
-  - dplyr
-  - tidyverse
+-   magrittr
+-   dplyr
+-   tidyverse
 
 ## Example
 
@@ -49,7 +48,7 @@ suppressMessages(library(tidyverse))
 
 ### Example 1
 
-Make the histogram plots for radius\_mean in two diagnosis groups.
+Make the histogram plots for radius_mean in two diagnosis groups.
 
 ``` r
 #load the dataset

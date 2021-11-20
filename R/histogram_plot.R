@@ -6,7 +6,7 @@
 #' @param data  The dataset
 #' @param group  The group variable
 #' @param variable  The variable for histograms
-#' @param x_label  The x_label for the plots.
+#' @param x_label  The x label for the plots.
 #' @return several histogram plots
 #' @details The function was made by combining "group_by", "mutate", and "ggplot" functions
 #' @examples

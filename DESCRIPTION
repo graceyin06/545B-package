@@ -1,6 +1,6 @@
 Package: histogramplot
 Title: Make histogram plots for a certain variable in different groups
-Version: 0.0.0.9000
+Version: 1.00
 Authors@R: 
     person(given = "Grace",
            family = "Yin",
